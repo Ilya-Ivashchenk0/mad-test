@@ -1,0 +1,22 @@
+.progressBar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.progressBarItem {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 10px;
+  background-color: var(--slate-color);
+
+  &.active {
+    background-color: var(--red-color);
+  }
+
+  &.past {
+    background-color: var(--black-color);
+  }
+}
